@@ -7,14 +7,12 @@ import routesRoutes from "./src/routes/routeRoutes.js";
 import sendingsRoutes from "./src/routes/routeSendings.js";
 import vehiclesRoutes from "./src/routes/routeVehicles.js";
 
+//IMPORTS ESPECIALES
 import registerClientsRoutes from "./src/routes/routeRegisterClients.js";
-import registerDriversRoutes from "./src/routes/routeRegisterDrivers.js";
-
+import registerDriversRoutes from "./src/routes/routeRegisterDrivers.js";ç
 import loginClientsRoutes from "./src/routes/routeLoginClients.js";
 import loginDriversRoutes from "./src/routes/routeLoginDrivers.js";
-
 import logoutRoutes from "./src/routes/routeLogout.js";
-
 import cookieParser from "cookie-parser";
 //Importamos para usar CORS
 import cors from "cors";
